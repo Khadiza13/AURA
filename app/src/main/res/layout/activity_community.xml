@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Community">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="430dp"
+        android:layout_height="65dp"
+        android:background="#c71585"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:logo="@drawable/see"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:padding="7dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="254dp"
+        android:layout_height="83dp"
+        android:fontFamily="cursive"
+        android:text="Community"
+        android:textColor="#c71585"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginTop="199dp"
+        android:layout_marginBottom="40dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="55dp"
+            app:cardElevation="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="0"
+            android:layout_column="0">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="124dp"
+                    android:layout_height="123dp"
+                    android:background="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.861"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.297"
+                    app:srcCompat="@drawable/loc" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Safety Tips And Tricks"
+                    android:textSize="20dp"
+                    android:fontFamily="cursive"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#c71585"
+                    android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="55dp"
+            app:cardElevation="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="0"
+            android:layout_column="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="140dp"
+                    android:layout_height="137dp"
+                    android:background="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.861"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.297"
+                    app:srcCompat="@drawable/nearby" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Track Your Menstrual Cycle"
+                    android:textSize="20dp"
+                    android:fontFamily="cursive"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#c71585"
+                    android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="55dp"
+            app:cardElevation="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="0">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="124dp"
+                    android:layout_height="123dp"
+                    android:background="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.861"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.297"
+                    app:srcCompat="@drawable/sos" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health Consultancy"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:textColor="#c71585"
+                    android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="55dp"
+            app:cardElevation="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:background="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.861"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.297"
+                    app:srcCompat="@drawable/audio" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Women's Law"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#c71585"
+                    android:fontFamily="cursive"
+                    android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

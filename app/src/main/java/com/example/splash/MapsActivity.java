@@ -315,7 +315,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     }
                 });
 
-                Toast.makeText(MapsActivity.this, "Searching Nearby Hospitals", Toast.LENGTH_LONG).show();
+                Toast.makeText(MapsActivity.this, "Searching Nearby Pharmacies", Toast.LENGTH_LONG).show();
             }
         });
         ImageButton res= findViewById(R.id.B_restaurants);
@@ -510,7 +510,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void onClick(View v) {
                 mMap.clear();
                 Object[] dataTransfer = new Object[2];
-                String p = "police station";
+                String p = "police";
                 String url = getUrl(latitude, longitude,p);
                 dataTransfer[0] = mMap;
                 dataTransfer[1] = url;
@@ -576,7 +576,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         googlePlaceUrl.append("&radius="+PROXIMITY_RADIUS);
         googlePlaceUrl.append("&type="+nearbyPlace);
         googlePlaceUrl.append("&sensor=true");
-        googlePlaceUrl.append("&key="+"AIzaSyAiy-O6rc_jb3b-WF-RS_XTUzAU1rIbHl4");
+        googlePlaceUrl.append("&key="+"AIzaSyDyOKwbk-L5XoodFJB1ajcd7HOHvH_Tee4");
 
         Log.d("MapsActivity", "url = "+googlePlaceUrl.toString());
 

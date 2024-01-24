@@ -11,10 +11,6 @@
         android:icon="@drawable/baseline_people_24"
         android:title="Community"
         />
-    <item
-        android:id="@+id/admin"
-        android:icon="@drawable/baseline_admin_panel_settings_24"
-        android:title="Admin Panel"
-        />
+
 
 </menu>

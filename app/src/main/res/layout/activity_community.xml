@@ -66,7 +66,7 @@
                 android:gravity="center">
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/imgbtn1"
                     android:layout_width="124dp"
                     android:layout_height="123dp"
                     android:background="#fff"
@@ -76,7 +76,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.297"
-                    app:srcCompat="@drawable/loc" />
+                    app:srcCompat="@drawable/tips" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
                 android:gravity="center">
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/imgbtn2"
                     android:layout_width="140dp"
                     android:layout_height="137dp"
                     android:background="#fff"
@@ -120,7 +120,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.297"
-                    app:srcCompat="@drawable/nearby" />
+                    app:srcCompat="@drawable/mens" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
                 android:gravity="center">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/imgbtn3"
                     android:layout_width="124dp"
                     android:layout_height="123dp"
                     android:background="#fff"
@@ -166,7 +166,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.297"
-                    app:srcCompat="@drawable/sos" />
+                    app:srcCompat="@drawable/heal" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -201,7 +201,7 @@
                 android:gravity="center">
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/imgbtn4"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:background="#fff"
@@ -211,7 +211,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.297"
-                    app:srcCompat="@drawable/audio" />
+                    app:srcCompat="@drawable/womenslaw" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

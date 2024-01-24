@@ -85,7 +85,7 @@
                 android:layout_width="90dp"
                 android:layout_height="95dp"
                 android:onClick="onClick"
-                android:src="@drawable/school1" />
+                android:src="@drawable/phar" />
             <ImageButton
                 android:id="@+id/B_restaurants"
                 android:layout_width="90dp"
@@ -97,7 +97,7 @@
                 android:layout_width="90dp"
                 android:layout_height="95dp"
                 android:onClick="onClick"
-                android:src="@drawable/gym1" />
+                android:src="@drawable/ps" />
             <ImageButton
                 android:id="@+id/B_atm"
                 android:layout_width="90dp"

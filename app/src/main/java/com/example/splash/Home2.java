@@ -9,9 +9,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageButton;
 
+
 public class Home2 extends AppCompatActivity {
+    ImageButton loc,audio,nearby,sos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +24,39 @@ public class Home2 extends AppCompatActivity {
         Toolbar toolbar=findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+        loc = findViewById(R.id.imageButton3);
+        audio = findViewById(R.id.imageButton4);
+        nearby = findViewById(R.id.imageButton5);
+        sos = findViewById(R.id.imageButton2);
+        loc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home2.this, LocationActivity.class);
+                startActivity(intent);
+            }
+        });
+        audio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home2.this, Demo.class);
+                startActivity(intent);
+            }
+        });
+        nearby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home2.this, MapsActivity.class);
+                startActivity(intent);
+            }
+        });
+        sos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home2.this, SOS.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
@@ -50,4 +86,5 @@ public class Home2 extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
 }

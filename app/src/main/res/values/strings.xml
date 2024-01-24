@@ -1,4 +1,70 @@
 <resources>
     <string name="app_name">Splash</string>
-    <string name="my_map_api_key">AIzaSyApoPaZAdsAPOX0AR6qTSVoa2NQLDn6FFk</string>
+    <string name="my_map_api_key">AIzaSyDyOKwbk-L5XoodFJB1ajcd7HOHvH_Tee4</string>
+    //home
+
+    <string name="home">1. Install robust locks on all doors and windows
+\n2. Use a peephole or security camera to identify visitors before opening the door
+\n3. Keep curtains or blinds closed, especially at night
+\n4. Have a trusted neighbor or family member check on your home if going away for an extended period
+\n5. Do not publicize travel plans on social media</string>
+
+    //workplace
+
+    <string name="workplace">1.Familiarize yourself with your workplace safety protocols and emergency exits
+\n2.Avoid working alone in isolated areas, especially during late hours
+\n3.Report any suspicious behavior or harassment to HR or management immediately
+\n4.Ensure that you have a clear understanding of your company harassment and discrimination policies
+\n5.Use the buddy system when working late or traveling for work</string>
+
+    //public
+
+    <string name="pub">1.Wait for transportation in well-lit and populated areas
+\n2.Sit near the driver or conductor, if possible, especially during nighttime travel
+\n3.Keep your belongings close and be aware of pickpockets
+\n4.Use trusted transportation services or apps that provide tracking features
+\n5.If you feel uncomfortable, change seats or alert the driver/conductor</string>
+
+    //travelling
+
+    <string name="travelling">1.Research your destination beforehand and be aware of local customs and safety concerns
+\n2.Share your itinerary with trusted friends or family members
+\n3.Avoid displaying expensive jewelry or items that might attract unwanted attention
+\n4.Use reputable transportation services and accommodations
+\n5.Carry a copy of your passport and other essential documents separately from the originals</string>
+
+    //social
+
+    <string name="social">1.Limit alcohol consumption and always keep an eye on your drink
+\n2.Stay with your group of friends and avoid leaving with strangers
+\n3.Trust your instincts if a situation feels uncomfortable, find a way to exit safely
+\n4.Use the buddy system, especially in unfamiliar or crowded places
+\n5.Be cautious about sharing personal information with new acquaintances</string>
+
+    //education
+
+    <string name="education">1.Familiarize yourself with campus security measures and emergency protocols
+\n2.Avoid isolated areas on campus, especially at night
+\n3.Use campus security escort services if available
+\n4.Report any incidents of harassment, assault, or suspicious behavior to campus authorities
+\n5.Participate in self-defense classes or safety workshops offered by the institution</string>
+
+    //online
+
+    <string name="online">1.Use strong, unique passwords for all online accounts
+\n2.Be cautious about sharing personal information on social media platforms
+\n3.Avoid meeting individuals from online interactions in private or unfamiliar locations
+\n4.Use privacy settings to control who can view your profile and posts
+\n5.Report any online harassment or threats to the platform administrators and consider informing local authorities if necessary</string>
+
+    //emergency
+
+    <string name="emergency">1.Emergency Hotline- 999
+\n2.Information Services- 333
+\n3.Health Hotline- 16263
+\n4.Violence against women and children- 109/10921
+\n5.Government Legal Services- 16430
+\n6.Advance notice of disaster- 10941
+\n7.ACC Hotline- 106
+\n8.Bangladesh Bank Service- 16236</string>
 </resources>
